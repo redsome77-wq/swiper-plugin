@@ -1,0 +1,118 @@
+/* swiper-1.css */
+header {
+    position: fixed; z-index: 999;
+    left: 0; top:0;
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
+}
+header nav {
+    height: 100%;
+    display: flex; flex-flow: row nowrap;
+    justify-content: ; align-items: center;
+    margin-left: 60px;
+    gap: 50px
+}
+header nav a {
+    display: inline-block;
+    height: 100%;
+    line-height: 60px;
+}
+header nav a:hover {
+    color: brown;
+}
+#wrap {
+    height: 100vh;
+    min-width: 1800px;
+}
+#top_btn {
+    width: 50px; height: 50px;
+    position: fixed; z-index: 999; right:25px; bottom: 25px;
+    background-color: #000; color: #fff;
+    text-align: center; line-height: 50px;
+    border-radius: 50%;
+}
+#wrap .swiper-wrapper {}
+#wrap .swiper-wrapper .swiper-slide {}
+#wrap .swiper-wrapper .swiper-slide h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin: 100px 0 50px;
+}
+#wrap .swiper-wrapper .intro {
+    background-color: antiquewhite;
+}
+#wrap .swiper-wrapper .profile {
+    background-color:tomato
+}
+#wrap .swiper-wrapper .project1 {
+    background-color: cadetblue;
+}
+#wrap .swiper-wrapper .project1 .group {
+    position: relative; width: max-content;
+    margin: 0 auto;
+}
+#wrap .swiper-wrapper .project1 .group .web {
+    width: 600px; height: 400px;
+    margin: 30px auto 0;
+    /* overflow:visible; hidden 내장*/
+}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper {}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .swiper-slide {}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .slide1 {
+    background-color: aquamarine;
+}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .slide2 {
+    background-color: azure;
+}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .slide3 {
+    background-color: burlywood;
+}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .slide4 {
+    background-color: violet;
+}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .slide5 {
+    background-color: thistle;
+}
+#wrap .swiper-wrapper .project1 .group .web .swiper-wrapper .slide6 {
+    background-color: sandybrown;
+}
+#wrap .swiper-wrapper .project1 .group .web + .web_page {
+    /*  background-color: yellowgreen;
+    transform: scale(1.5); */
+    /* absolute(기본내장) */
+    left: -50px; bottom: 20px; text-align: left;
+}
+#wrap .swiper-wrapper .project1 .group .web + .web_page span {
+    /*     background-color: tomato;    */
+}
+#wrap .swiper-wrapper .project1 .group .web + .web_page .swiper-pagination-current {
+    color:brown;
+}
+#wrap .swiper-wrapper .project1 .group .web + .web_page .swiper-pagination-total {
+    color:aqua;
+}
+#wrap .swiper-wrapper .project2 {
+    background-color: skyblue;
+}
+#wrap .swiper-wrapper .project2 h1 {}
+#wrap .swiper-wrapper .project2 .group {
+    position: relative;
+    width:max-content;
+    margin: 0 auto;
+}
+#wrap .swiper-wrapper .project2 .group .swiper {
+    width: 600px; height: 400px;
+}
+#wrap .swiper-wrapper .project2 .group .swiper .swiper-wrapper {}
+#wrap .swiper-wrapper .project2 .group .swiper .swiper-wrapper .swiper-slide {}
+#wrap .swiper-wrapper .project2 .group .swiper .swiper-wrapper .swiper-slide:nth-child(odd) {
+    background-color: yellowgreen;
+}
+#wrap .swiper-wrapper .project2 .group .swiper .swiper-wrapper .swiper-slide:nth-child(even) {
+    background-color: tomato;
+}
+#wrap .swiper-wrapper .project2 .group .grapic_page {
+    bottom: auto; top:-20px;
+}
