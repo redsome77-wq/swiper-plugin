@@ -40,6 +40,9 @@
     * `delay : 숫자` : 1000 = 1초
     * `pauseOnMouseEnter` : 마우스가 올라올때 자동전환 일시정지 여부 (true / false)
     * `disableOnInteraction` : 마우스 상호작용 후 멈출건지, 움직일건지(false) 여부 (true / false)
+* `spaceBetween` : 각 슬라이드 사이 여백 (예시 spaceBetween: 3.5, 픽셀 단위)
+* `slidesPerView` : 한 화면에 보이는 슬라이드 수 (예시 slidesPerView: 3)
+* `slidesPergroup` : 페이징 한번에 전환되는 슬라이드 수 (기본 1개)
 ## Swiper 선택요소(페이지번호, 이전다음버튼, 스크롤바) 주의사항
 * 기본 작성 위치는 `swiper-wrapper`의 다음 형제 위치
     * `swiper`의 첫번째 자식(swiper-wrapper) 두번째 자식(선택요소들)
